@@ -42,28 +42,6 @@ export default function Home() {
                             )
                         }
                         )}
-
-                    {/* <h1 className='text-center mt-5'>HOME</h1>
-                <Table striped bordered hover>
-                    <thead>
-                        <tr className='mt-5'>
-                            <th>ID</th>
-                            <th>Title</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        {
-                            blog.map((data, index) => {
-                                return (
-                                    <tr key={index}>
-                                        <td>{data.id}</td>
-                                        <td>{data.title}</td>
-                                    </tr>
-                                )
-                            })}
-                    </tbody>
-                </Table> */}
                 </Row>
             </Container>
         </div >
